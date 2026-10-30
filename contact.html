@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Global Care for orthopedic implant inquiries, hospital partnerships, or Innovation Lab visits in Bangkok, Thailand.">
+  <title>Contact — Global Care</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="assets/favicon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/favicon-180.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="logo" href="index.html" aria-label="Global Care home">
+        <img class="logo__img" src="assets/logo-color.png" alt="Global Care Co., LTD." width="180" height="98">
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false">Menu</button>
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+          <li class="nav__lab"><a href="lab/index.html">Innovation Lab</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <header class="page-hero">
+      <div class="container">
+        <nav aria-label="Breadcrumb">
+          <ol class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li aria-hidden="true">/</li>
+            <li>Contact</li>
+          </ol>
+        </nav>
+        <p class="eyebrow">Get in touch</p>
+        <h1>Contact Global Care</h1>
+        <p class="lead">Send an inquiry for product information, hospital partnership, or Innovation Lab activities. This form is frontend-only until a backend or form service is connected.</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container form-layout">
+        <aside>
+          <h2 class="mt-0" style="font-size: 1.25rem;">Reach us</h2>
+          <ul class="contact-details">
+            <li>
+              <strong>Email</strong>
+              <a href="mailto:info@globalcare.example">info@globalcare.example</a>
+              <p class="placeholder-note">Placeholder address — replace with your real inbox.</p>
+            </li>
+            <li>
+              <strong>Location</strong>
+              <span>Bangkok, Thailand</span>
+              <p class="placeholder-note">Street address intentionally generic until confirmed.</p>
+            </li>
+            <li>
+              <strong>Innovation Lab</strong>
+              <span>Showroom visits &amp; surgeon consults by appointment</span>
+              <p><a href="lab/index.html">Open Lab pages →</a></p>
+            </li>
+          </ul>
+        </aside>
+
+        <div class="form-panel">
+          <h2 class="mt-0" style="font-size: 1.25rem;">Inquiry form</h2>
+          <p class="text-muted" style="font-size: 0.9375rem; margin-bottom: 1.5rem;">Fields marked required must be completed. On submit, you will see a confirmation message (no email is sent yet).</p>
+
+          <div class="form-success" tabindex="-1">
+            Thank you — your inquiry was captured on this page for demonstration. Connect a form backend or service (e.g. Formspree, Netlify Forms) to deliver messages to your team.
+          </div>
+
+          <form data-demo-form novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full name <span class="hint">(required)</span></label>
+                <input type="text" id="name" name="name" autocomplete="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Work email <span class="hint">(required)</span></label>
+                <input type="email" id="email" name="email" autocomplete="email" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="organization">Organization / hospital</label>
+              <input type="text" id="organization" name="organization" autocomplete="organization">
+            </div>
+
+            <div class="form-group">
+              <label for="interest">Interest type <span class="hint">(required)</span></label>
+              <select id="interest" name="interest" required>
+                <option value="">Select one…</option>
+                <option value="products">Product information</option>
+                <option value="trauma">Trauma systems</option>
+                <option value="spine">Spine systems</option>
+                <option value="joint">Joint replacement</option>
+                <option value="sports">Sports medicine</option>
+                <option value="showroom">Showroom visit</option>
+                <option value="research">Research proposal</option>
+                <option value="sourcing">Product sourcing consult</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message <span class="hint">(required)</span></label>
+              <textarea id="message" name="message" required placeholder="Tell us about your case mix, timeline, or what you would like to evaluate…"></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn--primary btn--lg">Send inquiry</button>
+              <p class="form-note">By submitting, you agree we may respond regarding your inquiry. No marketing spam—clinical and partnership follow-up only.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a class="logo footer-logo" href="index.html">
+            <img class="logo__img" src="assets/logo-footer.png" alt="Global Care Co., LTD." width="200" height="109">
+          </a>
+          <p>Next-generation orthopedics for Thai hospitals.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Innovation Lab</h4>
+          <ul>
+            <li><a href="lab/index.html">Lab overview</a></li>
+            <li><a href="lab/showroom.html">Showroom visits</a></li>
+            <li><a href="lab/research.html">Research proposals</a></li>
+            <li><a href="lab/sourcing.html">Product sourcing</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© <span data-year>2026</span> Global Care Co., LTD. Bangkok, Thailand.</p>
+        <p>Contact: <a href="mailto:info@globalcare.example">info@globalcare.example</a> <span class="placeholder-note">(placeholder)</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    (function () {
+      var params = new URLSearchParams(window.location.search);
+      var interest = params.get("interest");
+      var select = document.getElementById("interest");
+      if (interest && select) {
+        var option = select.querySelector('option[value="' + interest + '"]');
+        if (option) select.value = interest;
+      }
+    })();
+  </script>
+</body>
+</html>
